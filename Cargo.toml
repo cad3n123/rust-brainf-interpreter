@@ -1,15 +1,15 @@
 [package]
+edition = "2021"
 name = "rust-project-template"
 version = "0.1.0"
-edition = "2021"
 
 [dependencies]
 
 [profile.release]
-opt-level = 3
-lto = "fat"
 codegen-units = 1
 debug = false
+lto = "fat"
+opt-level = 3
 
 [profile.dev]
 incremental = true
