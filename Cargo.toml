@@ -4,6 +4,7 @@ name = "rust-project-template"
 version = "0.1.0"
 
 [dependencies]
+crossterm = "0.29.*"
 
 [profile.release]
 codegen-units = 1
